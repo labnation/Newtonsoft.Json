@@ -10,3 +10,5 @@ AppPackages/
 _ReSharper.*
 *.ReSharper.user
 *.resharper.user
+*.csproj
+*.sln
