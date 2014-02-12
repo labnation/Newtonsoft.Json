@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ExternalProject Name="Newtonsoft.Json.ThirdParty">
+
+  <Platform Type="Windows">
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml.Linq" />
+  </Platform>
+
+  <Platform Type="MacOS">
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml.Linq" />
+  </Platform>
+
+  <Platform Type="Linux">
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml.Linq" />
+  </Platform>
+
+</ExternalProject>
