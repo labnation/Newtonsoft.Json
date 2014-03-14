@@ -127,7 +127,6 @@
     <Compile Include="Schema\UndefinedSchemaIdHandling.cs" />
     <Compile Include="Schema\ValidationEventArgs.cs" />
     <Compile Include="Schema\ValidationEventHandler.cs" />
-    <Compile Include="SerializationBinder.cs" />
     <Compile Include="Serialization\CachedAttributeGetter.cs" />
     <Compile Include="Serialization\CamelCasePropertyNamesContractResolver.cs" />
     <Compile Include="Serialization\DefaultContractResolver.cs" />
@@ -167,6 +166,7 @@
     <Compile Include="Serialization\ReflectionValueProvider.cs" />
     <Compile Include="Serialization\TraceJsonReader.cs" />
     <Compile Include="Serialization\TraceJsonWriter.cs" />
+    <Compile Include="SerializationBinder.cs" />
     <Compile Include="StringEscapeHandling.cs" />
     <Compile Include="TraceLevel.cs" />
     <Compile Include="TypeNameHandling.cs" />
