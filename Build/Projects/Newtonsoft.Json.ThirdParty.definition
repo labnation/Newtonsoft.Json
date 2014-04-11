@@ -19,4 +19,10 @@
     <Reference Include="System.Xml.Linq" />
   </Platform>
 
+  <Platform Type="Web">
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml.Linq" />
+  </Platform>
+
 </ExternalProject>
