@@ -1,0 +1,6 @@
+include ^Src/Newtonsoft\.Json/bin/Windows/AnyCPU/Debug/Newtonsoft\.Json\.dll$
+include ^Build/Newtonsoft\.Json\.Publish\.definition$
+include ^Build/Module\.xml$
+
+rewrite ^Src/Newtonsoft\.Json/bin/Windows/AnyCPU/Debug/Newtonsoft\.Json\.dll$ Newtonsoft.Json/Newtonsoft.Json.dll
+rewrite ^Build/Newtonsoft\.Json\.Publish\.definition$ Build/Projects/Newtonsoft.Json.definition
