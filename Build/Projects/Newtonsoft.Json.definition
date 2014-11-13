@@ -1,6 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Name="Newtonsoft.Json" Path="Src/Newtonsoft.Json" Type="Library">
   <Properties>
+    <FrameworkVersions>
+      <Platform Name="Android">
+        <Version>v4.0</Version>
+      </Platform>
+    </FrameworkVersions>
+  
     <CustomDefinitions>
       <Platform Name="Android">TRACE;CODE_ANALYSIS;PORTABLE40;MOBILE_SPECIFIC;</Platform>
       <Platform Name="Ouya">TRACE;CODE_ANALYSIS;PORTABLE40;MOBILE_SPECIFIC;</Platform>
