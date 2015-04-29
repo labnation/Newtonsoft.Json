@@ -628,7 +628,7 @@
           </xsl:when>
           <xsl:when test="/Input/Generation/Platform = 'iOS'">
             <ProjectTypeGuids>
-              <xsl:text>{6BC8ED88-2882-458C-8E55-DFD12B67127B};</xsl:text>
+              <xsl:text>{FEACFBD2-3405-455C-9665-78FE426C6842};</xsl:text>
               <xsl:text>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</xsl:text>
             </ProjectTypeGuids>
           </xsl:when>
