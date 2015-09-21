@@ -12,6 +12,7 @@
       <Platform Name="Ouya">TRACE;CODE_ANALYSIS;PORTABLE40;MOBILE_SPECIFIC;</Platform>
       <Platform Name="iOS">TRACE;CODE_ANALYSIS;PORTABLE40;MOBILE_SPECIFIC;</Platform>
       <Platform Name="Windows">TRACE;NET40;CODE_ANALYSIS;</Platform>
+	  <Platform Name="WindowsGL">TRACE;NET40;CODE_ANALYSIS;</Platform>
       <Platform Name="MacOS">TRACE;NET40;CODE_ANALYSIS;</Platform>
       <Platform Name="Linux">TRACE;NET40;CODE_ANALYSIS;</Platform>
       <Platform Name="Web">TRACE;NET40;CODE_ANALYSIS;</Platform>
