@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Name="Newtonsoft.Json" Path="Src/Newtonsoft.Json" Type="Library">
   <Properties>
+    <LangVersion>5</LangVersion>
     <FrameworkVersions>
       <Platform Name="Android">
         <Version>v4.0.3</Version>
