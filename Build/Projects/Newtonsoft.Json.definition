@@ -4,7 +4,7 @@
     <LangVersion>5</LangVersion>
     <FrameworkVersions>
       <Platform Name="Android">
-        <Version>v4.0.3</Version>
+        <Version>v9.0</Version>
       </Platform>
       <Platform Name="Windows">
         <Version>v4.0</Version>
@@ -19,7 +19,7 @@
         <Version>v4.0</Version>
       </Platform>
     </FrameworkVersions>
-  
+
     <CustomDefinitions>
       <Platform Name="Android">TRACE;CODE_ANALYSIS;PORTABLE40;MOBILE_SPECIFIC;</Platform>
       <Platform Name="Ouya">TRACE;CODE_ANALYSIS;PORTABLE40;MOBILE_SPECIFIC;</Platform>
@@ -69,7 +69,6 @@
     <Compile Include="DefaultValueHandling.cs" />
     <Compile Include="FloatFormatHandling.cs" />
     <Compile Include="FloatParseHandling.cs" />
-    <Compile Include="FormatterAssemblyStyle.cs" />
     <Compile Include="Formatting.cs" />
     <Compile Include="IJsonLineInfo.cs" />
     <Compile Include="JsonArrayAttribute.cs" />
